@@ -41,7 +41,7 @@ p {
 
 a {
     color: inherit;
-    text-decoration: inherit;
+    text-decoration: underline;
 }
 
 .justify_right {
@@ -111,6 +111,7 @@ a {
     border: 1px solid black;
     border-radius: 5px;
     box-shadow: none;
+    text-decoration: none;
 }
 
 .inline_button:hover {
