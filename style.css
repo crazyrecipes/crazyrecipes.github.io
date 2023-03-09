@@ -72,7 +72,7 @@ a {
 /* Inline side-by-side content */
 .sbs {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 40% 60%;
     gap: 4px;
     width: 100%;
     margin: 0;
@@ -80,17 +80,10 @@ a {
     overflow: hidden;
 }
 
-.sbsl {
-    width: 95%;
-    margin: 0px 0px 6px 0px;
-    padding: 0px 8px;
-    word-wrap: break-word;
-    overflow: hidden;
-}
-
-.sbsr {
-    width: 95%;
-    margin: 0px 0px 6px 0px;
+.sbsc {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
     padding: 0px 8px;
     word-wrap: break-word;
     overflow: hidden;
@@ -106,16 +99,17 @@ a {
 
 .inline_button {
     margin: 4px 0px;
-    padding: 4px 8px;
+    padding: 6px 10px;
     display: inline-block;
     border: 1px solid black;
     border-radius: 5px;
-    box-shadow: none;
     text-decoration: none;
+    color: black;
 }
 
 .inline_button:hover {
-    box-shadow: 3px 3px black;
+    background: black;
+    color: white;
 }
 
 .inline_spacer {
@@ -160,7 +154,9 @@ a {
 
 /* Logo image */
 .logo {
-    margin: 16px 0;
+    margin: 0;
+    width: 500px;
+    height: auto;
 }
 
 .underline {
