@@ -111,14 +111,12 @@ a {
     padding: 8px;
     margin-left: 4px;
     margin-right: 4px;
-    border: 1px solid black;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 
 .inline_button:hover {
-    background: black;
-    color: white;
-    transition-duration: .25s ease;
+    background: #bac1c4;
+    transition: 0.25s ease;
 }
 
 .inline_spacer {
