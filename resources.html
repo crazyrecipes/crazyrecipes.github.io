@@ -12,13 +12,13 @@
     <div class="content_outer">
         <div class="content_inner">
             <img src="media/images/recipebuddy.png" class="logo">
-            <<div class="inline_menu">
-                <a href="index.html"><div class="inline_button">Home</div></a>
-                <a href="download.html"><div class="inline_button">Download</div></a>
-                <a href="faq.html"><div class="inline_button">Overview</div></a>
-                <a href="development.html"><div class="inline_button">Development</div></a>
-                <a href="members.html"><div class="inline_button">Our Team</div></a>
-                <a href="resources.html"><div class="inline_button">Project Resources</div></a>
+            <div class="inline_menu">
+                <a class="inline_button" href="index.html">Home</a>
+                <a class="inline_button" href="download.html">Download</a>
+                <a class="inline_button" href="faq.html">Overview</a>
+                <a class="inline_button" href="development.html">Development</a>
+                <a class="inline_button" href="members.html">Team</a>
+                <a class="inline_button" href="resources.html">Project Resources</a>
             </div>
             <div class="divider"></div>
 
@@ -32,11 +32,28 @@
 
             <div class="spacer"></div>
 
-            <h3>What is RecipeBuddy?</h3>
+            <h3>Project Reports</h3>
             <p>
-                RecipeBuddy is a simple, easy to use recipe & inventory manager that allows you keep track of existing recipes and cooking supplies.
+                As part of our project, our team posts weekly progress updates describing what we accomplished. They are available below.
             </p>
             <div class="spacer"></div>
+            <button type="button" class="collapsible">Weekly progress reports</button>
+            <div class="content">
+                <li><a href="https://docs.google.com/document/d/1f2x1-AUZ9dJO0sTBbSxSW44y3r6AQyaY/edit?usp=sharing&ouid=109311437414510996653&rtpof=true&sd=true">Project Update #14 (April 16th, 2023)</a></li>
+                <li><a href="https://docs.google.com/document/d/18lLoRkB71LiKkgodQXvpVG3D7WWUXeXP/edit?usp=sharing&ouid=109311437414510996653&rtpof=true&sd=true">Project Update #13 (April 9th, 2023)</a></li>
+                <li><a href="https://docs.google.com/document/d/1gOPE3bZwWIglfL1VPFU9F8DQYdIRXz6D/edit?usp=sharing&ouid=109311437414510996653&rtpof=true&sd=true">Project Update #12 (April 2nd, 2023)</a></li>
+                <li><a href="https://docs.google.com/document/d/1S_v2XzocQalnSGyGpIlziOy2ptrGTkzw/edit?usp=sharing&ouid=109311437414510996653&rtpof=true&sd=true">Project Update #11 (March 26th, 2023)</a></li>
+                <li><a href="https://docs.google.com/document/d/1PLGk4mNavqKPVEfwS6uoC-bfca4Ngz9R/edit?usp=sharing&ouid=109311437414510996653&rtpof=true&sd=true">Project Update #10 (March 19th, 2023)</a></li>
+                <li><a href="https://docs.google.com/document/d/1X0q_DDoaEwiGN_FK4t3A4zYOps6zJivb/edit?usp=sharing&ouid=109311437414510996653&rtpof=true&sd=true">Project Update #9 (March 12th, 2023)</a></li>
+                <li><a href="https://docs.google.com/document/d/1159kdxPUZYERmcmuEU2dDiWZ8_1dUK6s/edit?usp=sharing&ouid=109311437414510996653&rtpof=true&sd=true">Project Update #8 (March 5th, 2023)</a></li>
+                <li><a href="https://docs.google.com/document/d/1N4iIGmMRzSI6c-2EhFfJTTcvRxM9T6iv/edit?usp=sharing&ouid=109311437414510996653&rtpof=true&sd=true">Project Update #7 (February 26th, 2023)</a></li>
+                <li><a href="https://docs.google.com/document/d/1yShm-77zSEPX00nisc4qUsUp9cLIxlej/edit?usp=sharing&ouid=109311437414510996653&rtpof=true&sd=true">Project Update #6 (February 19th, 2023)</a></li>
+                <li><a href="https://docs.google.com/document/d/1D9TLvRrrXvJieIbWAtCehblJsTHlGP9P/edit?usp=sharing&ouid=109311437414510996653&rtpof=true&sd=true">Project Update #5 (February 12th, 2023)</a></li>
+                <li><a href="https://docs.google.com/document/d/1XYsGBEpJEGNwxFqpIX93jmuag1Teukao/edit?usp=sharing&ouid=109311437414510996653&rtpof=true&sd=true">Project Update #4 (February 5th, 2023)</a></li>
+                <li><a href="https://docs.google.com/document/d/1JcIVtqSp0iufwTAsNO0ibXl-ZtrdPFNy/edit?usp=sharing&ouid=109311437414510996653&rtpof=true&sd=true">Project Update #3 (January 29th, 2023)</a></li>
+                <li><a href="https://docs.google.com/document/d/1cLFl2nFZxtdI9X6exeTekfGP1EgT05CP/edit?usp=sharing&ouid=109311437414510996653&rtpof=true&sd=true">Project Update #2 (January 22nd, 2023)</a></li>
+                <li><a href="https://docs.google.com/document/d/1BBXX7w51oPxhuaHuTZjPE96bizhhbJuQ/edit?usp=sharing&ouid=109311437414510996653&rtpof=true&sd=true">Project Update #1 (January 15th, 2023)</a></li>
+            </div>
 
             <h3></h3>
             <div class="divider"></div>
@@ -44,7 +61,26 @@
                 <img src="media/images/crazyrecipes.png" width="200px" height="auto">
                 <p>A project by the CrazyRecipes team</p>
             </div>
+            
         </div>
     </div>
 </body>
 </html>
+
+<!-- Collapse menu JS-->
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+</script>

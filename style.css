@@ -1,8 +1,12 @@
 /* Text styles */
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
-    background-color: #e5e8ec;
+    background: rgb(229,232,236);
+    background: linear-gradient(180deg, rgba(229,232,236,1) 0%, rgba(229,232,236,1) 80%, rgba(184,188,193,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #232f34;
 }
 
@@ -46,6 +50,11 @@ a {
 
 .justify_right {
     text-align: right;
+}
+
+li {
+    padding: 4px;
+    margin: 16px;
 }
 
 /* Box highlighting */
@@ -138,6 +147,35 @@ a {
     height: 1px;
     margin-top: 24px;
     margin-bottom: 20px;
+}
+
+/* Dropdown menu */
+.collapsible {
+    background-color: #d6dadc;
+    border-radius: 8px;
+    color: #444;
+    cursor: pointer;
+    padding: 16px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+.active, .collapsible:hover {
+    background-color: #bac1c4;
+    transition: 0.25s ease;
+}
+  
+.content {
+    padding: 0 16px;
+    background-color: #f1f3f3;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease-out;
+    border-radius: 8px;
 }
 
 /* Inline containers */
