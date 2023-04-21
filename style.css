@@ -208,3 +208,34 @@ li {
 .underline {
     text-decoration: underline;
 }
+
+/* computer content container */
+.vertical-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 10px;
+    padding-top: 10px;
+}
+
+.item {
+    background-color: #d6dadc;
+    padding: 10px;
+    padding-inline-start: 10px; 
+    border-radius: 8px;
+    column-gap: 10px;
+    display:grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr;
+} 
+
+.item-picture {
+    grid-column-start: 1;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
+    border-radius: 10px;
+}
+
+.item-content {
+    grid-column-start: 2;
+}
