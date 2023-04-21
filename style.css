@@ -92,27 +92,33 @@ a {
 /* Inline menus and buttons */
 .inline_menu {
     margin: 8px 0px;
-    padding: 8px 16px;
+    padding: 8px 4px;
     width: auto;
     overflow: auto;
     background: #d6dadc;
     border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .inline_button {
-    margin: 4px 0px;
-    padding: 6px 10px;
-    display: inline-block;
-    border: 1px solid black;
     font-weight: 600;
-    border-radius: 5px;
+    text-align: center;
+    grid-row: 1;
+    text-align: center;
     text-decoration: none;
-    color: black;
+    padding: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border: 1px solid black;
+    border-radius: 6px;
 }
 
 .inline_button:hover {
     background: black;
     color: white;
+    transition-duration: .25s ease;
 }
 
 .inline_spacer {
