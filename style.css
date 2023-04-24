@@ -133,6 +133,20 @@ li {
     height: auto;
 }
 
+.menubutton {
+    padding: 8px 4px;
+    background: #d6dadc;
+    border-radius: 8px;
+    max-width: 20%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.menubutton:hover {
+    background: #bac1c4;
+    transition: 0.25s ease;
+}
+
 /* Dividers and spacers */
 .divider {
     width: 100%;
