@@ -1,2 +1,2 @@
 # crazyrecipes.github.io
-Website for CrazyRecipes
+RecipeBuddy project site (Crazy Recipes Team)
